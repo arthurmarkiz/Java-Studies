@@ -1,3 +1,5 @@
+package Basics;
+
 import java.util.Locale;
 
 public class Challenge_01 {
