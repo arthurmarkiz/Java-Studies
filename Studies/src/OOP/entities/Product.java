@@ -9,6 +9,13 @@ public class Product {
         this.price = price > 0 ? price : 0;
         this.quantity = quantity > 0 ? quantity : 0;
     }
+    // Utiliazando do fator SOBRECARGA com mais de um Constructor:
+    // O constructor que será utilizado, é definido na hora da
+    // declaração das variáveis quando for instânciar a classe.
+    public Product(String name, double price) {
+        this.name = name;
+        this.price = price > 0 ? price : 0;
+    }
     public void displayProduct() {
         System.out.printf("Nome: %s%nPreço: R$%.2f%nEstoque: %d Unidades%n" +
                         "Valor total no estoque: R$%.2f%n",
