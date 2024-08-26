@@ -18,8 +18,8 @@ public class Program {
         }
 
         int sum = 0;
-        for(int i=0; i < vect.length; i++) {
-            sum += vect[i];
+        for (int i : vect) {
+            sum += i;
         }
         int avg = sum / length;
 
