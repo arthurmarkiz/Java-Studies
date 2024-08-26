@@ -1,4 +1,4 @@
-package OOP.vector;
+package OOP.vector.exercises;
 
 import java.util.Locale;
 import java.util.Scanner;

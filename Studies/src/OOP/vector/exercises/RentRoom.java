@@ -1,4 +1,4 @@
-package OOP.vector;
+package OOP.vector.exercises;
 
 public class RentRoom {
     private final String name;
